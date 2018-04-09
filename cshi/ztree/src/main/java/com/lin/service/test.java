@@ -31,5 +31,9 @@ public class test extends HttpServlet {
 	    request.setCharacterEncoding("UTF-8");
 		this.doGet(request, response);
 	}
+	
+	public static void main(String[] args) {
+		System.out.println("ÄãºÃÂğ");
+	}
 
 }
