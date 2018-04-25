@@ -39,6 +39,11 @@ import com.wordnik.swagger.annotations.ApiOperation;
 import com.wordnik.swagger.annotations.ApiResponse;
 import com.wordnik.swagger.annotations.ApiResponses;
 
+/**
+ * 
+ * @author lyc
+ *
+ */
 @Api(value = "user", description = "用户管理")
 @Controller
 @RequestMapping(value = "/a/user")
