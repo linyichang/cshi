@@ -1,0 +1,76 @@
+/*  兼容 ：IE10+，谷歌，360，搜狐，猎豹，QQ，等一些浏览器
+	，如出现不兼容的情况，可以反映我方进行修复，
+	可以把相关的问题，在superSummer官网上面进行留意，多谢你的支持。
+	
+    Compatibility: IE10+, Google, 360, Sohu, cheetah, QQ, and some other browsers
+	In the case of incompatibility, we can reflect our restoration.
+    You can pay attention to the relevant questions on the superSummer 
+    website and thank you for your support.*/
+	
+html{height: 100%;width: 100%;overflow-x: hidden;}
+body{height: 100%;width: 100%;background-color: #fff;overflow-x: hidden;}
+.del-style-right {
+	animation:del-right 0.2s;
+	-webkit-animation:del-right 0.2s; /* Safari and Chrome */
+	position: relative;
+}
+
+.del-style-left {
+	animation:del-left 0.2s;
+	-webkit-animation:del-left 0.2s; /* Safari and Chrome */
+	position: relative;
+}
+
+.del-style-top {
+	animation:del-top 0.2s;
+	-webkit-animation:del-top 0.2s; /* Safari and Chrome */
+	position: relative;
+}
+
+.del-style-buttom {
+	animation:del-buttom 0.2s;
+	-webkit-animation:del-buttom 0.2s; /* Safari and Chrome */
+	position: relative;
+}
+
+@keyframes del-left {
+	from {right:100%;}
+	to {right:0%;}
+}
+
+@-webkit-keyframes del-left {
+	from {right:100%;}
+	to {right:0%;}
+}
+
+@keyframes del-right {
+	from {left:100%;}
+	to {left:0%;}
+}
+@-webkit-keyframes del-right {
+	from {left:100%;}
+	to {left:0%;}
+}
+
+@keyframes del-top {
+	from {top:-100%;}
+	to {top:0%;}
+}
+
+@-webkit-keyframes del-top {
+	from {top:-100%;}
+	to {top:0%;}
+}
+
+@-webkit-keyframes del-buttom {
+	from {top:100%;}
+	to {top:0%;}
+}
+
+@-webkit-keyframes del-buttom {
+	from {top:100%;}
+	to {top:0%;}
+}
+
+
+

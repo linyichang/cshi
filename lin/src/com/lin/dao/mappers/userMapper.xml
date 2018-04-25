@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lin.dao.UserDao">
+	<select id="find" resultType="User" parameterType="User">
+      select * from t_user
+	</select>
+	
+	<select id="login" resultType="User" parameterType="User">
+	 select * from t_user where userName = #{userName} and password = #{password}
+	</select>
+	
+	<select id="findById" parameterType="Integer" resultType="User">
+	   select * t_user where id = #{id}
+	</select>
+	
+</mapper>
